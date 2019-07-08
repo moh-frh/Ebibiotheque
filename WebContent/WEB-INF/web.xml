@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class> com.servlets.Login.Login </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern> /login </url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>FormAuteur</servlet-name>
+    <servlet-class> com.forms.add.Form_add_auteur </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>FormAuteur</servlet-name>
+    <url-pattern> /formAuteur </url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>FormLivre</servlet-name>
+    <servlet-class> com.forms.add.Form_add_livre </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>FormLivre</servlet-name>
+    <url-pattern> /formLivre </url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+ 
+  
+  
+  <servlet>
+    <servlet-name>Addlivre</servlet-name>
+    <servlet-class>com.servlets.Login.AddLivre</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Addlivre</servlet-name>
+    <url-pattern> /Addlivre </url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AddAuteur</servlet-name>
+    <servlet-class>com.servlets.Login.AddAuteur</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>AddAuteur</servlet-name>
+    <url-pattern> /Addauteur </url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>Index</servlet-name>
+    <servlet-class> com.servlets.Login.Index </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Index</servlet-name>
+    <url-pattern></url-pattern>
+  </servlet-mapping>
+  
+  
+  
+ 
+  
+</web-app>
